@@ -29,6 +29,10 @@ gem 'jbuilder', '~> 2.5'
 
 # RailsAdmin is a Rails engine that provides an easy-to-use interface for managing your data 
 gem 'rails_admin'
+# Flexible authentication solution for Rails with Warden.
+gem 'devise'
+# The authorization Gem for Ruby on Rails.
+gem 'cancancan'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
