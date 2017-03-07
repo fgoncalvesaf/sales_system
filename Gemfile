@@ -33,6 +33,8 @@ gem 'rails_admin'
 gem 'devise'
 # The authorization Gem for Ruby on Rails.
 gem 'cancancan'
+# Classier solution for file uploads for Rails, Sinatra and other Ruby web frameworks
+gem 'carrierwave'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
