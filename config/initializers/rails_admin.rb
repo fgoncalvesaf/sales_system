@@ -1,5 +1,7 @@
 RailsAdmin.config do |config|
 
+  config.main_app_name = ["Representantes Comerciais", "by Gonca"]
+
   ### Popular gems integration
 
   ## == Devise ==
@@ -23,6 +25,11 @@ RailsAdmin.config do |config|
   ## To disable Gravatar integration in Navigation Bar set to false
   # config.show_gravatar true
 
+  config.navigation_static_links = {
+    'GitHub' => 'https://github.com/fgoncalvesaf/'
+  }
+
+  config.navigation_static_label = "Links Uteis"
 
   config.model Product do
     create do

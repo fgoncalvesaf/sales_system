@@ -35,6 +35,8 @@ gem 'devise'
 gem 'cancancan'
 # Classier solution for file uploads for Rails, Sinatra and other Ruby web frameworks
 gem 'carrierwave'
+# Rails_admin theme flat theme 
+gem 'rails_admin_rollincode', '~> 1.0'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
